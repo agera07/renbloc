@@ -14,3 +14,20 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// External imports
+import "bootstrap";
+
+
+
+// Internal imports:
+import { initNavbar } from "../channels/navbar";
+
+
+
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your functions here:
+  initNavbar();
+
+});
