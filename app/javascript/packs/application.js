@@ -22,7 +22,7 @@ import "bootstrap";
 
 
 // Internal imports:
-import { initNavbar } from "../channels/navbar";
+import { openNav, closeNav } from "../channels/navbar";
 
 
 
@@ -30,6 +30,7 @@ import { initNavbar } from "../channels/navbar";
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here:
 
-  initNavbar();
+  openNav();
+  closeNav();
 
 });

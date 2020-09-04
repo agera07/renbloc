@@ -5,8 +5,14 @@
   <a href="#">Team</a>
   <a href="#">About us</a>
 </div>
-
 <!-- Use any element to open the sidenav -->
 <span onclick="openNav()">open</span>
 
-
+<script>
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0%";
+}
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+</script>

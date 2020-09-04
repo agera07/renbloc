@@ -8,11 +8,6 @@ function closeNav() {
 }
 
 
-function initNavbar() {
-  if (document.getElementById("mySidenav")){
-    document.getElementById("mySidenav").addEventListener("click", closeNav);
-    document.getElementById("mySidenav").addEventListener("click", openNav);
-  }
-}
 
-export { initNavbar };
+
+export { openNav, closeNav };

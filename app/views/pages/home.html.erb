@@ -1,11 +1,7 @@
-<% content_for :navbar do %>
-   <div class="empty"></div>
-<% end %>
-
 <div class="page-container">
   <div class="banner-container">
     <div class="text-banner">
-      <h1>P <img src="images/power.png" alt="">wer in your hands</h1>
+      <h1>P<%= image_tag ("power"), :class => "power"%>wer in your hands</h1>
       <p>RenBloc aims to disrupt the energy market through transparency and trust,
       by offering the conscious consumer, the ability to truly control what type of energy
       they consume.
@@ -34,8 +30,10 @@
       </p>
     </div>
       <div class="bubbles1">
-        <img src="../assests/images/lights.jpg" alt="city">
-        <img src="../assets/images/office.jpg" alt="office">
+       <%= image_tag ("lights"), :class => "lights"%>
+      </div>
+      <div class="bubbles2">
+        <%= image_tag ("office"), :class => "office"%>
       </div>
     <div class="part2">
       <h1>Become Truly Renewable</h1>
@@ -45,10 +43,7 @@
         We make energy usage more efficient by allowing industry and property owners to distribute
         energy where it is needed, as well as deciding from where that energy is sourced.
       </p>
-      <div class="bubbles2">
-        <img src="" alt="">
-        <img src="" alt="">
-      </div>
+
     </div>
   </div>
 
@@ -88,7 +83,7 @@
     </div>
 
     <div class="partners">
-      <%= image_tag ("/assets/images/partners.jpg"), class: "img-responsive"%>
+      <%= image_tag ("partners"), class: "img-responsive"%>
     </div>
 
 
