@@ -2,20 +2,27 @@
   background-image: asset-url("homebanner.jpg");
   background-size: cover;
   background-position: center;
-   height: 600px;
+  height: 600px;
   h1 {
-    padding-left: 20px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-size: 32px;
     font-weight: bold;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
   }
   p {
-    padding-left: 20px;
-    width: 400px;
+    font-family: 'Raleway', sans-serif;
   }
 }
 
+.text-banner {
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    padding-left: 30px;
+
+}
 
 .tech {
   background-image: asset-url("dam.jpg");
@@ -23,20 +30,21 @@
   background-position: center;
   height: 600px;
 
-  h2 {
-    padding-left: 20px;
-    position: relative;
-    top: 65px;
+  h1 {
+    padding: 30px 0px 30px 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
   }
 
   p{
-    padding-left: 20px;
+    padding-right: 30px;
     color: grey;
-    position: relative;
-    top: 400px;
     width: 330px;
-    left: 700px;
+    left: 400px;
     text-align: right;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+
 
   }
 }
@@ -44,14 +52,40 @@
 
 .essentials {
 
-  h2 {
-    padding-left: 20px;
+
+
+  h1 {
+    padding-left: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    width: 1000px;
 
   }
 
   p {
-    padding-left: 20px;
 
+    font-family: 'Raleway', sans-serif;
+
+
+  }
+}
+
+.part1 {
+  display: flex;
+
+  p {
+    padding: 20px 20px 20px 20px;
+    width: 800px;
+
+  }
+}
+
+.part2 {
+  display: flex;
+  flex-direction: row-reverse;
+
+  h1 {
+  text-align: right;
+  padding-right: 50px;
   }
 }
 
@@ -63,6 +97,13 @@
   padding: 10px;
   grid-gap: 60px;
 
+  h3 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif;
+  }
 }
 
 .cards {
@@ -86,19 +127,44 @@
 
   h3 {
     text-align: right;
+    font-family: 'Montserrat Subrayada', sans-serif;
   }
 
   p {
     text-align: right;
     column-count: 1;
+    font-family: 'Raleway', sans-serif;
   }
 }
+
+
+.collaborate {
+
+
+
+  h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  }
+
+  p {
+  font-family: 'Raleway', sans-serif;
+  }
+}
+
 
 .content-about{
   padding-top: 10px;
   padding-right: 70px;
   display: flex;
   flex-direction: column;
+}
+
+.about-us {
+
+
+   h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  }
 }
 
 img .team {

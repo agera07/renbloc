@@ -16,7 +16,7 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 // External imports
-import "bootstrap";
+
 
 
 
@@ -28,6 +28,7 @@ import { initNavbar } from "../channels/navbar";
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here:
+
   initNavbar();
 
 });

@@ -16,11 +16,13 @@
 
 
 /* External libraries */
-@import "bootstrap/scss/bootstrap";
+
+
 
 /* Your CSS partials */
 
-@import "pages/navbar";
+@import "components/navbar";
+@import "components/footer";
 
 
 

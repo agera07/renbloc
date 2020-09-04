@@ -15,4 +15,4 @@ function initNavbar() {
   }
 }
 
-export {initNavbar};
+export { initNavbar };
