@@ -16,6 +16,7 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 // External imports
+import "bootstrap";
 
 
 
