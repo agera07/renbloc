@@ -1,6 +1,9 @@
 <div class="page-container">
   <div class="banner-container">
     <div class="text-banner">
+      <div class="logo">
+        <%= image_tag ("logo_transparent"), :class => "logo"%>
+      </div>
       <h1>P<%= image_tag ("power"), :class => "power"%>wer in your hands</h1>
       <p>RenBloc aims to disrupt the energy market through transparency and trust,
       by offering the conscious consumer, the ability to truly control what type of energy
@@ -22,12 +25,14 @@
   <div class="essentials">
     <div class="part1">
       <h1>Offer your Customers Trustworthy Energy</h1>
-      <p>The energy industry is facing a time of severe change.
-        Faith in energy companies is rapidly falling, and consumer disloyalty is at an all-time high.
-        Customers are demanding more from companies in terms of choice, transparency, and trust.
-        RenBloc can now offer the level of transparency that your customers are craving,
-        building a truly loyal customer base!
-      </p>
+      <div class="essentials-text">
+        <p>The energy industry is facing a time of severe change.
+          Faith in energy companies is rapidly falling, and consumer disloyalty is at an all-time high.
+          Customers are demanding more from companies in terms of choice, transparency, and trust.
+          RenBloc can now offer the level of transparency that your customers are craving,
+          building a truly loyal customer base!
+        </p>
+      </div>
     </div>
       <div class="bubbles1">
        <%= image_tag ("lights"), :class => "lights"%>
@@ -81,9 +86,11 @@
         RenBloc aims to be the driving force for a more open, more transparent and ultimately more sustainable energy market.
         If we change our energy – we change our climate!</p>
     </div>
-
-    <div class="partners">
-      <%= image_tag ("partners"), class: "img-responsive"%>
+    <div class="proud-to">
+      <h3>Proud to partner with:</h3>
+      <div class="partners">
+        <%= image_tag ("partners"), class: "img-partners"%>
+      </div>
     </div>
 
 
@@ -92,8 +99,8 @@
       <div class="about-us">
         <h1>About us</h1>
       </div>
-      <div class="content-about">
       <h3>This is Renbloc</h3>
+      <div class="content-about">
       <p>The idea for RenBloc was sprung over a kitchen table in the winter of 2017.</p>
       <p>Founders Gustaf Svensson and Nils Söderström made the switch to 100% renewable energy contracts,
         however we realized that they had no way of verifying, nor tracing, what was actually being delivered.
@@ -103,7 +110,9 @@
 
       <p>Want to take back control of your energy? Reach out!</p>
       </div>
-        <img class="teamrenbloc" src="../assets/images/teamrenbloc.png" alt="">
+      <div class="team-pic">
+        <%= image_tag ("teamrenbloc"), class: "teamrenbloc"%>
+      </div>
     </div>
 </div>
 

@@ -8,6 +8,4 @@ function closeNav() {
 }
 
 
-
-
 export { openNav, closeNav };

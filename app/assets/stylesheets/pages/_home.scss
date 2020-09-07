@@ -1,3 +1,11 @@
+.menu-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+
+}
+
+
 .banner-container {
   background-image: asset-url("homebanner.jpg");
   background-size: cover;
@@ -9,6 +17,8 @@
     font-size: 40px;
     font-weight: bold;
     font-family: 'Montserrat Subrayada', sans-serif;
+    width: 600px;
+    padding: 30px;
 
   }
   p {
@@ -86,6 +96,8 @@
 
 .part1 {
   display: flex;
+  flex-direction: column;
+  background-color: grey;
 
   p {
     padding: 20px 20px 20px 20px;
@@ -96,7 +108,7 @@
 
 .part2 {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
 
   h1 {
   text-align: right;
@@ -191,15 +203,30 @@
 
 
 .collaborate {
+  text-align: center;
+  background-image: asset-url("northenlights.jpg");
+  background-size: cover;
+  background-position: center;
 
 
   h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
+    color: white;
   }
 
   p {
     font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
   }
+}
+
+
+.proud-to {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .partners {
@@ -214,17 +241,33 @@
   flex-direction: column;
 }
 
+
+
+h3 {
+  padding-right: 30px;
+
+}
 .about-us {
 
 
    h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
+  padding: 30px;
   }
 }
 
-img .team {
-  border-radius: 50%;
-  width: 200px;
+.team-pic {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 70px;
 }
+
+.teamrenbloc {
+  border-radius: 50%;
+  position: relative;
+  bottom: -200px;
+}
+
+
 
 

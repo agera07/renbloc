@@ -22,7 +22,7 @@ import "bootstrap";
 
 
 // Internal imports:
-import { openNav, closeNav } from "../channels/navbar";
+import { openNav, closeNav, stickyNav } from "../channels/navbar";
 
 
 

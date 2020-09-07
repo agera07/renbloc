@@ -10,13 +10,41 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  text-align: center;
+
+}
+
+
+.logo {
+  height: 130px;
+  position: absolute;
+  top: -55px;
+}
+
+.btn-flat {
+  height: 73px;
+}
+
+
+.menu {
+  width: 30px;
+}
+
+/*toggle the openning*/
+
+.navbar-open {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+
 }
 
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 100px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -46,4 +74,18 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
