@@ -17,8 +17,8 @@
 
 .logo {
   height: 130px;
-  position: absolute;
-  top: -55px;
+  position: fixed;
+  top: -35px;
 }
 
 .btn-flat {
@@ -60,7 +60,7 @@
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 80px;
   margin-left: 50px;
 }
 

@@ -4,6 +4,7 @@
       <div class="logo">
         <%= image_tag ("logo_transparent"), :class => "logo"%>
       </div>
+      <%= video_tag "intro1.mov", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
       <h1>P<%= image_tag ("power"), :class => "power"%>wer in your hands</h1>
       <p>RenBloc aims to disrupt the energy market through transparency and trust,
       by offering the conscious consumer, the ability to truly control what type of energy
@@ -20,6 +21,9 @@
     <div class="text-tech2">
       <p>RenBloc will empower consumers to truly control what type of energy they consume.
         We offer the conscious consumer the ability to impact and actively change the market.</p>
+    </div>
+    <div class="learn-button">
+      <button type="button" class="btn btn-secondary"><span>Learn How</span></button>
     </div>
   </div>
   <div class="essentials">
@@ -52,31 +56,61 @@
     </div>
   </div>
 
-  <div class="benefit-cards">
-      <div class="cards">
+  <div class="grid">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+         <%= image_tag ("shape"), class: "shape"%>
+      </div>
+      <div class="flip-card-back">
         <h3>First to Market</h3>
         <p>RenBloc is the only company currently offering this service</p>
       </div>
-      <div class="cards">
+    </div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+         <%= image_tag ("shape"), class: "shape"%>
+      </div>
+      <div class="flip-card-back">
         <h3>Cross Border Trading</h3>
         <p>Our technology opens up the global market</p>
       </div>
-      <div class="cards">
+    </div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+         <%= image_tag ("shape"), class: "shape"%>
+      </div>
+      <div class="flip-card-back">
         <h3>Verifiable</h3>
         <p>Truly control what type of energy you consume</p>
       </div>
-      <div class="cards">
+    </div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <%= image_tag ("shape"), class: "shape"%>
+      </div>
+      <div class="flip-card-back">
         <h3>Trust</h3>
         <p>Transparency builds trust and long lasting relationships</p>
       </div>
-      <div class="cards">
+    </div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+         <%= image_tag ("shape"), class: "shape"%>
+      </div>
+      <div class="flip-card-back">
         <h3>Ease of Use</h3>
         <p>Easily search out producer, location, company or energy source</p>
       </div>
-      <div class="cards">
+    </div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+         <%= image_tag ("shape"), class: "shape"%>
+      </div>
+      <div class="flip-card-back">
         <h3>Online</h3>
         <p>Instantly accessible through our platform or partner apps</p>
       </div>
+    </div>
   </div>
 
     <div class="collaborate">
