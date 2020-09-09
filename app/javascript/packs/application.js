@@ -17,14 +17,14 @@ require("channels")
 
 // External imports
 import "bootstrap";
-
+import "font-awesome";
 
 
 
 // Internal imports:
-import { openNav, closeNav, stickyNav } from "../channels/navbar";
+import { openNav, closeNav } from "../channels/navbar";
 
-
+import { openCard } from "..channels/card";
 
 
 document.addEventListener('turbolinks:load', () => {
@@ -32,5 +32,6 @@ document.addEventListener('turbolinks:load', () => {
 
   openNav();
   closeNav();
+  openCard();
 
 });

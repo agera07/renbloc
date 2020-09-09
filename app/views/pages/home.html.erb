@@ -5,11 +5,13 @@
         <%= image_tag ("logo_transparent"), :class => "logo"%>
       </div>
       <%= video_tag "intro1.mov", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
-      <h1>P<%= image_tag ("power"), :class => "power"%>wer in your hands</h1>
-      <p>RenBloc aims to disrupt the energy market through transparency and trust,
-      by offering the conscious consumer, the ability to truly control what type of energy
-      they consume.
-      </p>
+      <div class="banner-content">
+        <h1>P<%= image_tag ("power"), :class => "power"%>wer in your hands</h1>
+        <p>RenBloc aims to disrupt the energy market through transparency and trust,
+        by offering the conscious consumer, the ability to truly control what type of energy
+        they consume.
+        </p>
+      </div>
     </div>
   </div>
   <div class="tech">
@@ -38,12 +40,12 @@
         </p>
       </div>
     </div>
-      <div class="bubbles1">
+      <!-- <div class="bubbles1">
        <%= image_tag ("lights"), :class => "lights"%>
       </div>
       <div class="bubbles2">
         <%= image_tag ("office"), :class => "office"%>
-      </div>
+      </div> -->
     <div class="part2">
       <h1>Become Truly Renewable</h1>
       <p>Energy usage in buildings accounts for a large part of our total climate impact. Lowering our energy consumption is of
@@ -55,11 +57,12 @@
 
     </div>
   </div>
-
+  <h1 class="value-cards-title">Added Values</h1>
+  <p><i class="fa fa-facebook-square"></i> </p>
   <div class="grid">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-         <%= image_tag ("shape"), class: "shape"%>
+         <%= image_tag ("first-place"), class: "shape"%>
       </div>
       <div class="flip-card-back">
         <h3>First to Market</h3>
@@ -68,7 +71,7 @@
     </div>
     <div class="flip-card-inner">
       <div class="flip-card-front">
-         <%= image_tag ("shape"), class: "shape"%>
+         <%= image_tag ("globe"), class: "shape"%>
       </div>
       <div class="flip-card-back">
         <h3>Cross Border Trading</h3>
@@ -77,7 +80,7 @@
     </div>
     <div class="flip-card-inner">
       <div class="flip-card-front">
-         <%= image_tag ("shape"), class: "shape"%>
+         <%= image_tag ("tick"), class: "shape"%>
       </div>
       <div class="flip-card-back">
         <h3>Verifiable</h3>
@@ -86,7 +89,7 @@
     </div>
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <%= image_tag ("shape"), class: "shape"%>
+        <%= image_tag ("trustworthy"), class: "shape"%>
       </div>
       <div class="flip-card-back">
         <h3>Trust</h3>
@@ -95,7 +98,7 @@
     </div>
     <div class="flip-card-inner">
       <div class="flip-card-front">
-         <%= image_tag ("shape"), class: "shape"%>
+         <%= image_tag ("click"), class: "shape"%>
       </div>
       <div class="flip-card-back">
         <h3>Ease of Use</h3>
@@ -104,7 +107,7 @@
     </div>
     <div class="flip-card-inner">
       <div class="flip-card-front">
-         <%= image_tag ("shape"), class: "shape"%>
+         <%= image_tag ("wifi"), class: "shape"%>
       </div>
       <div class="flip-card-back">
         <h3>Online</h3>
@@ -142,7 +145,8 @@
         Since then we have partnered with major energy companies, as well as launched our first product,
         proving that not being able to trace your energy is a thing of the past!</p>
 
-      <p>Want to take back control of your energy? Reach out!</p>
+      <p>Want to take back control of your energy?</p>
+      <p>Reach out!</p>
       </div>
       <div class="team-pic">
         <%= image_tag ("teamrenbloc"), class: "teamrenbloc"%>
