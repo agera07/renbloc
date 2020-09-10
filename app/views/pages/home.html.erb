@@ -1,10 +1,9 @@
 <div class="page-container">
   <div class="banner-container">
-    <div class="text-banner">
-      <div class="logo">
-        <%= image_tag ("logo_transparent"), :class => "logo"%>
+      <div class="home_video">
+      <%= video_tag "intro1.mov", autoplay: :autoplay, loop: :loop, muted: :muted, :class => "video"  %>
       </div>
-      <%= video_tag "intro1.mov", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
+    <div class="text-banner">
       <div class="banner-content">
         <h1>P<%= image_tag ("power"), :class => "power"%>wer in your hands</h1>
         <p>RenBloc aims to disrupt the energy market through transparency and trust,
@@ -30,8 +29,8 @@
   </div>
   <div class="essentials">
     <div class="part1">
-      <h1>Offer your Customers Trustworthy Energy</h1>
       <div class="essentials-text">
+      <h1>Offer your Customers Trustworthy Energy</h1>
         <p>The energy industry is facing a time of severe change.
           Faith in energy companies is rapidly falling, and consumer disloyalty is at an all-time high.
           Customers are demanding more from companies in terms of choice, transparency, and trust.
@@ -40,25 +39,25 @@
         </p>
       </div>
     </div>
-      <!-- <div class="bubbles1">
-       <%= image_tag ("lights"), :class => "lights"%>
+      <div class="bubbles1">
+      <img class="graph" src="https://media3.giphy.com/media/l378c04F2fjeZ7vH2/giphy.gif?cid=ecf05e47404c659428dd32299f3af49b209d05bdffd914d9&rid=giphy.gif">
       </div>
-      <div class="bubbles2">
-        <%= image_tag ("office"), :class => "office"%>
-      </div> -->
-    <div class="part2">
-      <h1>Become Truly Renewable</h1>
-      <p>Energy usage in buildings accounts for a large part of our total climate impact. Lowering our energy consumption is of
-        the utmost importance for reaching our target climate goals.
-        Utilizing RenBloc allows you to take smart buildings to the next level.
-        We make energy usage more efficient by allowing industry and property owners to distribute
-        energy where it is needed, as well as deciding from where that energy is sourced.
-      </p>
-
     </div>
-  </div>
+      <div class="essentials1">
+        <div class="bubbles2">
+           <img class="batteries" src="https://miro.medium.com/max/1600/1*Hpo-orQa9YCmxKOjT8FABQ.gif">
+        </div>
+        <div class="part2">
+        <h1>Become Truly Renewable</h1>
+        <p>Energy usage in buildings accounts for a large part of our total climate impact. Lowering our energy consumption is of
+          the utmost importance for reaching our target climate goals.
+          Utilizing RenBloc allows you to take smart buildings to the next level.
+          We make energy usage more efficient by allowing industry and property owners to distribute
+          energy where it is needed, as well as deciding from where that energy is sourced.
+        </p>
+        </div>
+      </div>
   <h1 class="value-cards-title">Added Values</h1>
-  <p><i class="fa fa-facebook-square"></i> </p>
   <div class="grid">
     <div class="flip-card-inner">
       <div class="flip-card-front">
@@ -116,41 +115,41 @@
     </div>
   </div>
 
-    <div class="collaborate">
+  <div class="collaborate">
       <h1>Let’s shape the Future Together!</h1>
       <p>RenBloc is today the only company that enables consumers to truly control – and freely choose – what type of energy they consume.
         We see a future where energy awareness increases, and the power of the conscious consumer takes central stage.
         RenBloc aims to be the driving force for a more open, more transparent and ultimately more sustainable energy market.
         If we change our energy – we change our climate!</p>
-    </div>
-    <div class="proud-to">
+  </div>
+  <div class="proud-to">
       <h3>Proud to partner with:</h3>
       <div class="partners">
         <%= image_tag ("partners"), class: "img-partners"%>
       </div>
+  </div>
+
+
+
+  <div class="team">
+    <div class="about-us">
+    <h1>About us</h1>
     </div>
+    <h3>This is Renbloc</h3>
+    <div class="content-about">
+    <p>The idea for RenBloc was sprung over a kitchen table in the winter of 2017.</p>
+    <p>Founders Gustaf Svensson and Nils Söderström made the switch to 100% renewable energy contracts,
+      however we realized that they had no way of verifying, nor tracing, what was actually being delivered.
+      We set out to change this – empowering consumers to freely choose their type of energy – changing the market forever!
+      Since then we have partnered with major energy companies, as well as launched our first product,
+      proving that not being able to trace your energy is a thing of the past!</p>
 
-
-
-    <div class="team">
-      <div class="about-us">
-        <h1>About us</h1>
-      </div>
-      <h3>This is Renbloc</h3>
-      <div class="content-about">
-      <p>The idea for RenBloc was sprung over a kitchen table in the winter of 2017.</p>
-      <p>Founders Gustaf Svensson and Nils Söderström made the switch to 100% renewable energy contracts,
-        however we realized that they had no way of verifying, nor tracing, what was actually being delivered.
-        We set out to change this – empowering consumers to freely choose their type of energy – changing the market forever!
-        Since then we have partnered with major energy companies, as well as launched our first product,
-        proving that not being able to trace your energy is a thing of the past!</p>
-
-      <p>Want to take back control of your energy?</p>
-      <p>Reach out!</p>
-      </div>
-      <div class="team-pic">
-        <%= image_tag ("teamrenbloc"), class: "teamrenbloc"%>
-      </div>
+    <p>Want to take back control of your energy?</p>
+    <p>Reach out!</p>
     </div>
+    <div class="team-pic">
+      <%= image_tag ("teamrenbloc"), class: "teamrenbloc"%>
+    </div>
+  </div>
 </div>
 

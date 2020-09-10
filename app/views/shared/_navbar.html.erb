@@ -1,23 +1,47 @@
-<div id="mySidenav" class="sidenav">
+<!-- <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">News</a>
   <a href="#">Contact</a>
   <a href="#">How it's done</a>
   <a href="#">About us</a>
-</div>
+</div> -->
 <!-- Use any element to open the sidenav -->
-<div class="navbar-open">
+<!-- <div class="navbar-open">
   <button class="btn btn-flat" onclick="openNav()"><%= image_tag ("menu"), :class => "menu"%></button>
 </div>
+ -->
 
 
-
-<script>
+<!-- <script>
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0%";
 }
   function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
+}
+
+</script> -->
+
+
+<div id="navbar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#home"><%= image_tag ("logo"), :class => "logo"%></a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <button class="btn btn-flat" style="width: 50px" onclick="openNav()"><%= image_tag ("menu"), :class => "menu"%></button>
+</div>
+
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
 }
 
 </script>

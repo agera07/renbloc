@@ -22,9 +22,9 @@ import "font-awesome";
 
 
 // Internal imports:
-import { openNav, closeNav } from "../channels/navbar";
+ import { openNav, closeNav } from "../channels/navbar";
 
-import { openCard } from "..channels/card";
+
 
 
 document.addEventListener('turbolinks:load', () => {
